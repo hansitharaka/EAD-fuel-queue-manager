@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Fuel Queue Manager</string>
+    <string name="login">Login</string>
+    <string name="hint_pwd">Password</string>
+    <string name="hint_station_password">Enter Station Password</string>
+    <string name="hint_station_re_password">Re-Enter Station Password</string>
+    <string name="hint_user">Username</string>
+    <string name="text_no_account">Dont have an account? Register</string>
+    <string name="img_content_login">Login activity image</string>
+    <string name="registerStation">Station Registration</string>
+    <string name="registerVehicle">Vehicle Registration</string>
+    <string name="text_have_account">Already have an account? Login</string>
+    <string name="hint_station_name">Enter Station Name</string>
+    <string name="hint_station_email">Enter Station Email</string>
+    <string name="station_name">Station Name</string>
+    <string name="station_email">Station Email</string>
+    <string name="hint_phone">Phone number</string>
+    <string name="hint_station_address">Enter Station Address</string>
+    <string name="station_address">Station Address</string>
+    <string name="station_password">Station Password</string>
+    <string name="label_fuel_station">Fuel Station</string>
+    <string name="label_vehicle">Vehicle</string>
+    <string name="continue_vehicle">Continue As A Vehicle Owner</string>
+    <string name="continue_fuel_station">Continue As A Fuel Station Owner</string>
+    <string name="hint_v_owner_name">Enter Vehicle Owner Name</string>
+    <string name="hint_v_no">Enter Vehicle Number</string>
+    <string name="spinner_content_desc">Select Fuel Type</string>
+    <string name="hint_user_email">Enter Your Email</string>
+    <string name="hint_user_password">Enter Your Password</string>
+    <string name="hint_user_repassword">Re-Enter Your Password</string>
+    <string name="user_profile">My Profile</string>
+    <string name="station_profile">Station Profile</string>
+    <string name="back_button">back button</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="label_fuel_type">Fuel Type</string>
+    <string name="near_by_stations">Near by stations</string>
+    <string name="seach_location">Search by Location</string>
+    <string name="station_main_label">Fuel Queue Status</string>
+    <string name="f_arrived">Fuel Arrived</string>
+    <string name="f_finished">Fuel Finished</string>
+    <string name="fuel_status_label">Fuel Status</string>
+    <string name="average_waiting_time">Average Waiting Time: 00.00</string>
+    <string name="avg_wt_time_label">Average Waiting Time</string>
+    <string name="petrol">Petrol</string>
+    <string name="diesel">Diesel</string>
+    <string name="petrolQ">00</string>
+    <string name="dieselQ">00</string>
+    <string name="avg_waiting_time">00:00</string>
+    <string name="station_location">Location</string>
+    <string name="update_your_status">Update Your Status</string>
+    <string name="check_out">Check Out</string>
+    <string name="check_in">Check In</string>
+    <string name="hint_fuel_type">Fuel Type</string>
+    <string-array name="fuel_types">
+        <item>Petrol</item>
+        <item>Diesel</item>
+    </string-array>
+</resources>

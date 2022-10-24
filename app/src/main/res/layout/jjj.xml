@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".StationProfile">
+
+
+
+
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+
+        <LinearLayout
+            android:id="@+id/InnerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/profileLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/station_profile"
+                android:textSize="30dp"
+                android:textColor="@color/orange1"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/regImg"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/station_profile"
+                android:contentDescription="@string/img_content_login"
+                />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/orange"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/stationNameLabel"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/hint_station_name"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        />
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/stationName"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+
+                android:text="@string/hint_station_name"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textPersonName"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/stationAddressLabel"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+
+                android:text="@string/hint_station_address"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textPersonName"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/stationAddress"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+
+                android:text="@string/hint_station_address"
+               />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textPersonName"
+                />
+        </LinearLayout>
+
+            <Button
+                android:id="@+id/editStation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/edit_profile"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

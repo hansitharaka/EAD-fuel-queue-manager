@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".VehicleOwnerProfile">
+
+
+
+
+        <LinearLayout
+            android:id="@+id/InnerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/profileLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="@string/user_profile"
+                android:gravity="center"
+                android:textSize="35dp"
+                android:textColor="@color/orange1"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/regImg"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginBottom="15dp"
+                android:contentDescription="@string/img_content_login"
+                android:src="@drawable/my_profile" />
+
+            <TextView
+                android:id="@+id/vOwnerLabel"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="3dp"
+                android:layout_weight="1"
+                android:text="Vehicle Owner Name"
+                android:textSize="18dp"
+                android:textColor="@color/orange"
+                android:padding="1dp"
+                android:layout_marginLeft="3dp"/>
+
+            <EditText
+                android:id="@+id/vehicleOwnerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:minHeight="48dp"
+                android:padding="1dp"
+                android:layout_marginLeft="3dp"
+                android:textSize="18dp"
+                android:textColor="@color/orange1"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <TextView
+                android:id="@+id/vNoLabel"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="3dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="3dp"
+                android:text="@string/hint_v_no"
+                android:textSize="18dp"
+                android:textColor="@color/orange"
+                android:padding="1dp"/>
+
+            <EditText
+                android:id="@+id/vehicleNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textSize="18dp"
+                android:textColorHint="@color/orange1"
+                android:minHeight="48dp"
+                android:padding="3dp"
+                android:layout_marginLeft="3dp"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <TextView
+                android:id="@+id/vFuelTypeLabel"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="3dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="3dp"
+                android:padding="1dp"
+                android:textColor="@color/orange"
+                android:text="@string/label_fuel_type"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/regVehicleNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:textSize="18dp"
+                android:layout_marginLeft="3dp"
+                android:textColorHint="@color/orange1"
+                android:minHeight="48dp"
+                android:padding="3dp"
+                 />
+
+            <Button
+                android:id="@+id/editVehicleOwner"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:backgroundTint="@color/orange1"
+                android:layout_marginBottom="10dp"
+                android:text="@string/edit_profile"
+                android:textSize="18dp"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+        </LinearLayout>
+
+
+</LinearLayout>
