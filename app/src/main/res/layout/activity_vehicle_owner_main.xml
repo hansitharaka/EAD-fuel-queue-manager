@@ -7,14 +7,37 @@
     android:layout_margin="20dp"
     tools:context=".VehicleOwnerMain">
 
-    <TextView
-        android:id="@+id/mainUiLabel"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="20dp"
-        android:text="@string/near_by_stations"
-        android:textSize="20sp" />
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/viewUserProfile"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/userprofile"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/orange1" />
+
+        <TextView
+            android:id="@+id/mainUiLabel"
+            android:gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/fuel_ease"
+            android:textColor="@color/orange1"
+            android:textStyle="bold"
+            android:textSize="35dp" />
+
+
+    </LinearLayout>
+
+
 
 <!--    Search-->
     <LinearLayout
@@ -31,12 +54,15 @@
             android:hint="@string/seach_location"
             android:importantForAutofill="no"
             android:inputType="text"
+            android:drawableLeft="@drawable/search"
+            android:drawableTint="@color/orangetint"
             android:paddingStart="20dp"
             android:paddingTop="10dp"
             android:paddingEnd="20dp"
             android:paddingBottom="10dp"
-            android:textColorHint="@color/dimgray"
-            tools:ignore="TextContrastCheck" />
+            android:textColorHint="@color/orangetint"
+            tools:ignore="TextContrastCheck"
+            />
 
     </LinearLayout>
 
@@ -51,7 +77,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="20dp">
+           >
 
         </androidx.recyclerview.widget.RecyclerView>
 
